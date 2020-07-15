@@ -1,0 +1,476 @@
+DEBUG 2020-07-15 15:53:27,338 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-15 15:53:27,600 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-15 15:53:27,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyClub.Web.Startup.MyClubWebMvcModule, MyClub.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyClub.MyClubWebCoreModule, MyClub.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyClub.MyClubApplicationModule, MyClub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyClub.MyClubCoreModule, MyClub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyClub.EntityFrameworkCore.MyClubEntityFrameworkModule, MyClub.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:27,616 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-15 15:53:27,815 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-15 15:53:27,815 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-15 15:53:27,815 [1    ] o.Configuration.LanguageManagementConfig - Converted MyClub (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-15 15:53:27,815 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-15 15:53:28,317 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyClub.EntityFrameworkCore.MyClubDbContext, MyClub.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-15 15:53:29,132 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-15 15:53:29,167 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-15 15:53:29,177 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-15 15:53:29,182 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyClub
+DEBUG 2020-07-15 15:53:29,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-15 15:53:29,369 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-15 15:53:29,483 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyClub.MultiTenancy.Tenant, MyClub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyClub.Authorization.Users.User, MyClub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-15 15:53:29,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-07-15 15:53:29,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-15 15:53:29,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Users.Dto.CreateUserDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Users.Dto.UserDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Roles.Dto.PermissionDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.MultiTenancy.Dto.TenantDto
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-07-15 15:53:29,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyClub.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-07-15 15:53:32,783 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-15 15:53:33,583 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Simon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-15 15:53:33,703 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-15 15:53:33,882 [4    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-07-15 15:53:33,886 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-07-15 15:53:33,897 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.3346ms 302 
+INFO  2020-07-15 15:53:33,912 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-07-15 15:53:33,917 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.AccountController.Login (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:53:36,730 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller MyClub.Web.Controllers.AccountController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:53:39,191 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-07-15 15:53:40,259 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1101.4086ms.
+INFO  2020-07-15 15:53:40,263 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.AccountController.Login (MyClub.Web.Mvc) in 3530.5096ms
+INFO  2020-07-15 15:53:40,265 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.AccountController.Login (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:53:40,275 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6362.3316ms 200 text/html; charset=utf-8
+INFO  2020-07-15 15:53:40,292 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-07-15 15:53:40,294 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-07-15 15:53:40,296 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-07-15 15:53:40,298 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-07-15 15:53:40,299 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-07-15 15:53:40,301 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-07-15 15:53:40,321 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-07-15 15:53:40,321 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-07-15 15:53:40,321 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-07-15 15:53:40,323 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-07-15 15:53:40,325 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.6702ms 200 text/css
+INFO  2020-07-15 15:53:40,328 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.1356ms 200 text/css
+INFO  2020-07-15 15:53:40,329 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.0855ms 200 text/css
+INFO  2020-07-15 15:53:40,331 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.2084ms 200 text/css
+INFO  2020-07-15 15:53:40,334 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-07-15 15:53:40,336 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-07-15 15:53:40,338 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2020-07-15 15:53:40,340 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-07-15 15:53:40,341 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-07-15 15:53:40,343 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.3995ms 200 text/css
+INFO  2020-07-15 15:53:40,347 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-07-15 15:53:40,350 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.1847ms 200 text/css
+INFO  2020-07-15 15:53:40,352 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-07-15 15:53:40,358 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-07-15 15:53:40,360 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-07-15 15:53:40,361 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.2428ms 200 application/javascript
+INFO  2020-07-15 15:53:40,363 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-07-15 15:53:40,365 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-07-15 15:53:40,366 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.0271ms 200 application/javascript
+INFO  2020-07-15 15:53:40,368 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-07-15 15:53:40,370 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.1697ms 200 application/javascript
+INFO  2020-07-15 15:53:40,371 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-07-15 15:53:40,373 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-07-15 15:53:40,374 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.1189ms 200 application/javascript
+INFO  2020-07-15 15:53:40,376 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-07-15 15:53:40,378 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-07-15 15:53:40,380 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-07-15 15:53:40,381 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.7026ms 200 application/javascript
+INFO  2020-07-15 15:53:40,383 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.2524ms 200 application/javascript
+INFO  2020-07-15 15:53:40,385 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-07-15 15:53:40,386 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-07-15 15:53:40,388 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-07-15 15:53:40,390 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.1987ms 200 text/css
+INFO  2020-07-15 15:53:40,391 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.1308ms 200 application/javascript
+INFO  2020-07-15 15:53:40,394 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-07-15 15:53:40,396 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-07-15 15:53:40,399 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.2852ms 200 application/javascript
+INFO  2020-07-15 15:53:40,400 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-07-15 15:53:40,402 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-07-15 15:53:40,404 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-07-15 15:53:40,406 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-07-15 15:53:40,408 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.4536ms 200 application/javascript
+INFO  2020-07-15 15:53:40,409 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-07-15 15:53:40,411 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-07-15 15:53:40,413 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-07-15 15:53:40,414 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.5885ms 200 application/javascript
+INFO  2020-07-15 15:53:40,416 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-07-15 15:53:40,418 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.6604ms 200 application/javascript
+INFO  2020-07-15 15:53:40,419 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-07-15 15:53:40,420 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-07-15 15:53:40,422 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-07-15 15:53:40,424 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.3021ms 200 application/javascript
+INFO  2020-07-15 15:53:40,425 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.2608ms 200 application/javascript
+INFO  2020-07-15 15:53:40,427 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-07-15 15:53:40,431 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-07-15 15:53:40,433 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=erWeUTCm0IlmhFiwSbvl7k1sDqBQgkv2hPoLOgF_5KY  
+INFO  2020-07-15 15:53:40,434 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637304252094841292  
+INFO  2020-07-15 15:53:40,437 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-07-15 15:53:40,438 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-07-15 15:53:40,440 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.6306ms 200 application/javascript
+INFO  2020-07-15 15:53:40,441 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-07-15 15:53:40,444 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-07-15 15:53:40,446 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.4579ms 200 application/javascript
+INFO  2020-07-15 15:53:40,447 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.198ms 200 application/javascript
+INFO  2020-07-15 15:53:40,449 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.148ms 200 application/javascript
+INFO  2020-07-15 15:53:40,451 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.9124ms 200 application/javascript
+INFO  2020-07-15 15:53:40,453 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637304252094841292  
+INFO  2020-07-15 15:53:40,455 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=KxhHl3HYb-UQucT7TN2ewhzzgV_WwxRaGwGaSiT8xzM  
+INFO  2020-07-15 15:53:40,456 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:40,458 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637304252202512254  
+INFO  2020-07-15 15:53:40,460 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:40,462 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-07-15 15:53:40,464 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.3205ms 200 application/javascript
+INFO  2020-07-15 15:53:40,466 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-07-15 15:53:40,468 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.7624ms 200 application/javascript
+INFO  2020-07-15 15:53:40,479 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-15 15:53:40,482 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-15 15:53:40,548 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-15 15:53:40,551 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 66.2293ms
+INFO  2020-07-15 15:53:40,552 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:40,554 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.326ms 200 application/x-javascript
+INFO  2020-07-15 15:53:40,567 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:53:40,569 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 88.6549ms
+INFO  2020-07-15 15:53:40,571 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:40,572 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 120.7851ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:53:40,597 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-07-15 15:53:40,599 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-07-15 15:53:40,602 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-07-15 15:53:40,604 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.0958ms 200 image/png
+INFO  2020-07-15 15:53:40,608 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-07-15 15:53:40,611 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.4398ms 200 font/woff2
+INFO  2020-07-15 15:53:40,682 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-07-15 15:53:40,688 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-07-15 15:53:40,690 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.2225ms 200 image/x-icon
+INFO  2020-07-15 15:53:56,176 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-07-15 15:53:56,181 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.AccountController.Login (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:53:56,189 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(MyClub.Web.Models.Account.LoginViewModel, System.String, System.String) on controller MyClub.Web.Controllers.AccountController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:53:56,583 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-07-15 15:53:56,598 [12   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-15 15:53:56,608 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.AccountController.Login (MyClub.Web.Mvc) in 416.4797ms
+INFO  2020-07-15 15:53:56,610 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.AccountController.Login (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:53:56,613 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 436.9815ms 200 application/json; charset=utf-8
+INFO  2020-07-15 15:53:56,621 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-15 15:53:56,651 [17   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-15 15:53:56,653 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.HomeController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:53:56,656 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyClub.Web.Controllers.HomeController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:53:56,690 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-15 15:53:57,326 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 652.0345ms.
+INFO  2020-07-15 15:53:57,331 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.HomeController.Index (MyClub.Web.Mvc) in 672.1387ms
+INFO  2020-07-15 15:53:57,333 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.HomeController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:53:57,335 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 714.3727ms 200 text/html; charset=utf-8
+INFO  2020-07-15 15:53:57,345 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-07-15 15:53:57,349 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-07-15 15:53:57,351 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-07-15 15:53:57,353 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-07-15 15:53:57,355 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6274ms 200 text/css
+INFO  2020-07-15 15:53:57,357 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-07-15 15:53:57,362 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-07-15 15:53:57,366 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.9451ms 200 text/css
+INFO  2020-07-15 15:53:57,371 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-07-15 15:53:57,375 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-07-15 15:53:57,379 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-07-15 15:53:57,387 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-07-15 15:53:57,388 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-07-15 15:53:57,391 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.9667ms 200 text/css
+INFO  2020-07-15 15:53:57,393 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.3202ms 200 text/css
+INFO  2020-07-15 15:53:57,395 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-07-15 15:53:57,397 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-07-15 15:53:57,399 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.3716ms 200 application/javascript
+INFO  2020-07-15 15:53:57,406 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-07-15 15:53:57,413 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-07-15 15:53:57,414 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-07-15 15:53:57,416 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-07-15 15:53:57,418 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.551ms 200 application/javascript
+INFO  2020-07-15 15:53:57,421 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.3512ms 200 application/javascript
+INFO  2020-07-15 15:53:57,422 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-07-15 15:53:57,424 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-07-15 15:53:57,430 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-07-15 15:53:57,439 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-07-15 15:53:57,441 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.7682ms 200 application/javascript
+INFO  2020-07-15 15:53:57,443 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-07-15 15:53:57,445 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.9624ms 200 application/javascript
+INFO  2020-07-15 15:53:57,446 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-07-15 15:53:57,449 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.6752ms 200 application/javascript
+INFO  2020-07-15 15:53:57,452 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-07-15 15:53:57,453 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-07-15 15:53:57,455 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637304252094841292  
+INFO  2020-07-15 15:53:57,457 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637304252094841292  
+INFO  2020-07-15 15:53:57,458 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-07-15 15:53:57,460 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.1597ms 200 application/javascript
+INFO  2020-07-15 15:53:57,462 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.9256ms 200 application/javascript
+INFO  2020-07-15 15:53:57,464 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.3024ms 200 application/javascript
+INFO  2020-07-15 15:53:57,466 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=oXtBxmWqbGclNPC3h2Z52JxjnELnUjkdxYswn-ARgzQ  
+INFO  2020-07-15 15:53:57,469 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-07-15 15:53:57,471 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-07-15 15:53:57,473 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2020-07-15 15:53:57,475 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=K0D6HsrS69XXLRtWKoTtWGYinGZNmmZF6gpiRobQkK4  
+INFO  2020-07-15 15:53:57,477 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.8252ms 200 application/javascript
+INFO  2020-07-15 15:53:57,480 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-07-15 15:53:57,483 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.3041ms 200 image/png
+INFO  2020-07-15 15:53:57,485 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-07-15 15:53:57,487 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-07-15 15:53:57,489 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.7832ms 200 application/javascript
+INFO  2020-07-15 15:53:57,492 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:57,494 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-07-15 15:53:57,499 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.0051ms 200 image/png
+INFO  2020-07-15 15:53:57,501 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:57,503 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/chartjs/dist/Chart.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\chartjs\dist\Chart.js'
+INFO  2020-07-15 15:53:57,505 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.3032ms 200 application/javascript
+INFO  2020-07-15 15:53:57,507 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-15 15:53:57,509 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-15 15:53:57,528 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-15 15:53:57,532 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 19.2873ms
+INFO  2020-07-15 15:53:57,534 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:57,536 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.6509ms 200 application/x-javascript
+INFO  2020-07-15 15:53:57,572 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:53:57,574 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 64.9426ms
+INFO  2020-07-15 15:53:57,576 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:53:57,578 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.4481ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:53:57,580 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:53:57,586 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:53:57,600 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:53:57,602 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.7196ms 200 application/json
+INFO  2020-07-15 15:53:57,615 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-07-15 15:53:57,617 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-07-15 15:53:57,619 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1026ms 200 image/x-icon
+INFO  2020-07-15 15:53:57,628 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=IDhXi1uigeJShl4sv5fZeA  
+INFO  2020-07-15 15:53:57,634 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:53:57,774 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"IDhXi1uigeJShl4sv5fZeA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:53:57.7703051+01:00","Properties":{}}
+DEBUG 2020-07-15 15:53:57,782 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: IDhXi1uigeJShl4sv5fZeA
+INFO  2020-07-15 15:54:01,098 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-regular-400.woff2  
+INFO  2020-07-15 15:54:01,107 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-regular-400.woff2'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-regular-400.woff2'
+INFO  2020-07-15 15:54:01,111 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.0443ms 200 font/woff2
+INFO  2020-07-15 15:54:04,709 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2020-07-15 15:54:04,718 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+DEBUG 2020-07-15 15:54:04,719 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: IDhXi1uigeJShl4sv5fZeA
+INFO  2020-07-15 15:54:04,722 [32   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-15 15:54:04,724 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.RolesController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:04,727 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:04,730 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:04,733 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.5122ms 200 application/json
+INFO  2020-07-15 15:54:04,736 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=jEcccEBLTqBNU5ItB-M7iA  
+INFO  2020-07-15 15:54:04,737 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MyClub.Web.Controllers.RolesController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:54:04,740 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:04,742 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7114.2496ms 101 
+INFO  2020-07-15 15:54:04,746 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:04,753 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"jEcccEBLTqBNU5ItB-M7iA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:04.753039+01:00","Properties":{}}
+INFO  2020-07-15 15:54:04,974 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-15 15:54:05,049 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 77.3546ms.
+INFO  2020-07-15 15:54:05,051 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.RolesController.Index (MyClub.Web.Mvc) in 311.5579ms
+INFO  2020-07-15 15:54:05,053 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.RolesController.Index (MyClub.Web.Mvc)'
+DEBUG 2020-07-15 15:54:05,055 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: jEcccEBLTqBNU5ItB-M7iA
+INFO  2020-07-15 15:54:05,056 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 347.241ms 200 text/html; charset=utf-8
+INFO  2020-07-15 15:54:05,058 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:05,060 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 325.3991ms 101 
+INFO  2020-07-15 15:54:05,109 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637304252094841292  
+INFO  2020-07-15 15:54:05,115 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=ZcXXRbKlrdysdNsxPkhOdwHAvAqk-y6GB2g-PWjZvBk  
+INFO  2020-07-15 15:54:05,117 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637304252094841292  
+INFO  2020-07-15 15:54:05,120 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/Index.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Roles\Index.js'
+INFO  2020-07-15 15:54:05,122 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.4357ms 200 application/javascript
+INFO  2020-07-15 15:54:05,127 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:05,129 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:05,131 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:05,133 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:05,136 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-15 15:54:05,138 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.3291ms
+INFO  2020-07-15 15:54:05,140 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:05,142 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.168ms 200 application/x-javascript
+INFO  2020-07-15 15:54:05,158 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:05,160 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.2659ms
+INFO  2020-07-15 15:54:05,162 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:05,164 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.4165ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:05,226 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:05,232 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:05,234 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:05,236 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.799ms 200 application/json
+INFO  2020-07-15 15:54:05,305 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-07-15 15:54:05,310 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Roles.RoleAppService.GetAllAsync (MyClub.Application)'
+INFO  2020-07-15 15:54:05,318 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyClub.Roles.Dto.RoleDto]] GetAllAsync(MyClub.Roles.Dto.PagedRoleResultRequestDto) on controller MyClub.Roles.RoleAppService (MyClub.Application).
+INFO  2020-07-15 15:54:05,332 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=xkHeueHLoJ6w5SbJaO3Xnw  
+INFO  2020-07-15 15:54:05,337 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:05,342 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"xkHeueHLoJ6w5SbJaO3Xnw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:05.3424003+01:00","Properties":{}}
+DEBUG 2020-07-15 15:54:05,342 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: xkHeueHLoJ6w5SbJaO3Xnw
+INFO  2020-07-15 15:54:05,426 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-07-15 15:54:05,428 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-07-15 15:54:05,431 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.0152ms 200 image/x-icon
+INFO  2020-07-15 15:54:05,433 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-15 15:54:05,447 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Roles.RoleAppService.GetAllAsync (MyClub.Application) in 126.0517ms
+INFO  2020-07-15 15:54:05,449 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Roles.RoleAppService.GetAllAsync (MyClub.Application)'
+INFO  2020-07-15 15:54:05,451 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 146.6257ms 200 application/json; charset=utf-8
+DEBUG 2020-07-15 15:54:06,741 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: xkHeueHLoJ6w5SbJaO3Xnw
+INFO  2020-07-15 15:54:06,741 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2020-07-15 15:54:06,744 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:06,746 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:06,750 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1417.0383ms 101 
+INFO  2020-07-15 15:54:06,761 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:06,762 [13   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-15 15:54:06,766 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.TenantsController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:06,769 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:06,771 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.6244ms 200 application/json
+INFO  2020-07-15 15:54:06,774 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=9lJ1bZ7WCjEC-o2wl8wQAw  
+INFO  2020-07-15 15:54:06,777 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Tenants", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyClub.Web.Controllers.TenantsController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:54:06,783 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:06,792 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"9lJ1bZ7WCjEC-o2wl8wQAw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:06.7919156+01:00","Properties":{}}
+INFO  2020-07-15 15:54:06,989 [32   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-15 15:54:07,063 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 75.5048ms.
+INFO  2020-07-15 15:54:07,065 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.TenantsController.Index (MyClub.Web.Mvc) in 286.1766ms
+INFO  2020-07-15 15:54:07,067 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.TenantsController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:07,070 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 330.1597ms 200 text/html; charset=utf-8
+DEBUG 2020-07-15 15:54:07,071 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 9lJ1bZ7WCjEC-o2wl8wQAw
+INFO  2020-07-15 15:54:07,074 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:07,076 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 302.2352ms 101 
+INFO  2020-07-15 15:54:07,132 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637304252094841292  
+INFO  2020-07-15 15:54:07,134 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/Index.js?v=EwWqZTBS6kAPcgd0ljNF87u33oMJrsWeDCExppnp4Bs  
+INFO  2020-07-15 15:54:07,137 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637304252094841292  
+INFO  2020-07-15 15:54:07,140 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Tenants/Index.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Tenants\Index.js'
+INFO  2020-07-15 15:54:07,142 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.0743ms 200 application/javascript
+INFO  2020-07-15 15:54:07,148 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:07,150 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:07,152 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:07,154 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:07,156 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-15 15:54:07,158 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.6427ms
+INFO  2020-07-15 15:54:07,160 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:07,163 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.4874ms 200 application/x-javascript
+INFO  2020-07-15 15:54:07,179 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:07,181 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.2438ms
+INFO  2020-07-15 15:54:07,183 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:07,185 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.0126ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:07,248 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:07,253 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:07,255 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:07,256 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6691ms 200 application/json
+INFO  2020-07-15 15:54:07,323 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Tenant/GetAll?keyword=&isActive=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-07-15 15:54:07,329 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.MultiTenancy.TenantAppService.GetAllAsync (MyClub.Application)'
+INFO  2020-07-15 15:54:07,336 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyClub.MultiTenancy.Dto.TenantDto]] GetAllAsync(MyClub.MultiTenancy.Dto.PagedTenantResultRequestDto) on controller MyClub.MultiTenancy.TenantAppService (MyClub.Application).
+INFO  2020-07-15 15:54:07,358 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=2DY-xKajypGrlCMOBRU9rA  
+INFO  2020-07-15 15:54:07,367 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:07,371 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"2DY-xKajypGrlCMOBRU9rA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:07.3715873+01:00","Properties":{}}
+DEBUG 2020-07-15 15:54:07,371 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 2DY-xKajypGrlCMOBRU9rA
+INFO  2020-07-15 15:54:07,434 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-15 15:54:07,441 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.MultiTenancy.TenantAppService.GetAllAsync (MyClub.Application) in 102.3843ms
+INFO  2020-07-15 15:54:07,443 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.MultiTenancy.TenantAppService.GetAllAsync (MyClub.Application)'
+INFO  2020-07-15 15:54:07,445 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 121.9937ms 200 application/json; charset=utf-8
+DEBUG 2020-07-15 15:54:08,229 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 2DY-xKajypGrlCMOBRU9rA
+INFO  2020-07-15 15:54:08,233 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:08,236 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:08,238 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2020-07-15 15:54:08,240 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 885.9929ms 101 
+INFO  2020-07-15 15:54:08,246 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:08,248 [16   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-15 15:54:08,251 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.UsersController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:08,252 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:08,256 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.6082ms 200 application/json
+INFO  2020-07-15 15:54:08,258 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=jtcrWOGc1Ow-lnaD_5UiyQ  
+INFO  2020-07-15 15:54:08,264 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller MyClub.Web.Controllers.UsersController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:54:08,266 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:08,271 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"jtcrWOGc1Ow-lnaD_5UiyQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:08.2713806+01:00","Properties":{}}
+INFO  2020-07-15 15:54:08,514 [32   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-15 15:54:08,576 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 66.0507ms.
+INFO  2020-07-15 15:54:08,578 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.UsersController.Index (MyClub.Web.Mvc) in 311.7569ms
+INFO  2020-07-15 15:54:08,581 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.UsersController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:08,583 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 348.1063ms 200 text/html; charset=utf-8
+DEBUG 2020-07-15 15:54:08,584 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: jtcrWOGc1Ow-lnaD_5UiyQ
+INFO  2020-07-15 15:54:08,586 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:08,588 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 330.6831ms 101 
+INFO  2020-07-15 15:54:08,619 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-07-15 15:54:08,621 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-07-15 15:54:08,625 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-07-15 15:54:08,637 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.4906ms 200 text/css
+INFO  2020-07-15 15:54:08,641 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-07-15 15:54:08,645 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637304252094841292  
+INFO  2020-07-15 15:54:08,646 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637304252094841292  
+INFO  2020-07-15 15:54:08,650 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=o5YzaLImbJyRVSBgq1DhAkruYaMfr7MznY8yXPuI9Bw  
+INFO  2020-07-15 15:54:08,651 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.5402ms 200 text/css
+INFO  2020-07-15 15:54:08,654 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+INFO  2020-07-15 15:54:08,656 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.08ms 200 application/javascript
+INFO  2020-07-15 15:54:08,662 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:08,664 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:08,666 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:08,668 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:08,672 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-15 15:54:08,674 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.019ms
+INFO  2020-07-15 15:54:08,677 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:08,680 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.0352ms 200 application/x-javascript
+INFO  2020-07-15 15:54:08,695 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:08,698 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.6707ms
+INFO  2020-07-15 15:54:08,700 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:08,701 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.8717ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:08,742 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:08,747 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:08,749 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:08,751 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.2809ms 200 application/json
+INFO  2020-07-15 15:54:08,805 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-07-15 15:54:08,810 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Users.UserAppService.GetAllAsync (MyClub.Application)'
+INFO  2020-07-15 15:54:08,817 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyClub.Users.Dto.UserDto]] GetAllAsync(MyClub.Users.Dto.PagedUserResultRequestDto) on controller MyClub.Users.UserAppService (MyClub.Application).
+INFO  2020-07-15 15:54:08,839 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=_Tj-pWaCH5qC_2cQXBOdjA  
+INFO  2020-07-15 15:54:08,845 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:08,851 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"_Tj-pWaCH5qC_2cQXBOdjA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:08.8511157+01:00","Properties":{}}
+DEBUG 2020-07-15 15:54:08,851 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: _Tj-pWaCH5qC_2cQXBOdjA
+INFO  2020-07-15 15:54:08,912 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-15 15:54:08,920 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Users.UserAppService.GetAllAsync (MyClub.Application) in 101.2614ms
+INFO  2020-07-15 15:54:08,922 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Users.UserAppService.GetAllAsync (MyClub.Application)'
+INFO  2020-07-15 15:54:08,924 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 118.9892ms 200 application/json; charset=utf-8
+INFO  2020-07-15 15:54:08,926 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-07-15 15:54:08,929 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\Simon\source\repos\the-coding-panda\my-club\src\MyClub.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-07-15 15:54:08,931 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5874ms 200 image/x-icon
+DEBUG 2020-07-15 15:54:10,067 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: _Tj-pWaCH5qC_2cQXBOdjA
+INFO  2020-07-15 15:54:10,070 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:10,072 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1233.1332ms 101 
+INFO  2020-07-15 15:54:10,079 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-07-15 15:54:10,081 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:10,087 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:10,090 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:10,093 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.1158ms 200 application/json
+INFO  2020-07-15 15:54:10,096 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=UceNFr8WJvCPUE4fnwdR4Q  
+INFO  2020-07-15 15:54:10,098 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-15 15:54:10,101 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyClub.Web.Controllers.AboutController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:10,105 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyClub.Web.Controllers.AboutController (MyClub.Web.Mvc).
+INFO  2020-07-15 15:54:10,108 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:10,113 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"UceNFr8WJvCPUE4fnwdR4Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:10.1135714+01:00","Properties":{}}
+INFO  2020-07-15 15:54:10,140 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-15 15:54:10,193 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 66.7613ms.
+INFO  2020-07-15 15:54:10,195 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action MyClub.Web.Controllers.AboutController.Index (MyClub.Web.Mvc) in 88.2537ms
+INFO  2020-07-15 15:54:10,197 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyClub.Web.Controllers.AboutController.Index (MyClub.Web.Mvc)'
+INFO  2020-07-15 15:54:10,200 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 121.4144ms 200 text/html; charset=utf-8
+DEBUG 2020-07-15 15:54:10,201 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: UceNFr8WJvCPUE4fnwdR4Q
+INFO  2020-07-15 15:54:10,203 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-07-15 15:54:10,205 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 110.0285ms 101 
+INFO  2020-07-15 15:54:10,246 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637304252094841292  
+INFO  2020-07-15 15:54:10,250 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637304252094841292  
+INFO  2020-07-15 15:54:10,256 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:10,259 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:10,262 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:10,264 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-15 15:54:10,267 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-15 15:54:10,269 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 3.6355ms
+INFO  2020-07-15 15:54:10,272 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:10,275 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5974ms 200 application/x-javascript
+INFO  2020-07-15 15:54:10,292 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:10,293 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 29.1056ms
+INFO  2020-07-15 15:54:10,295 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-15 15:54:10,297 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.512ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-15 15:54:10,333 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-07-15 15:54:10,338 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:10,340 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-07-15 15:54:10,342 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.8242ms 200 application/json
+INFO  2020-07-15 15:54:10,369 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=XuSaI5gXRfb5YkYKDtOAiQ  
+INFO  2020-07-15 15:54:10,374 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-07-15 15:54:10,378 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"XuSaI5gXRfb5YkYKDtOAiQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-07-15T15:54:10.3779767+01:00","Properties":{}}
+DEBUG 2020-07-15 15:54:10,378 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: XuSaI5gXRfb5YkYKDtOAiQ
